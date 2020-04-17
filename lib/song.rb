@@ -12,6 +12,9 @@ class Song
     @@all<< self
   end
   
+  def self.all
+    @@all<< self
+  end
 
   def artist_name
     if @artist == nil
